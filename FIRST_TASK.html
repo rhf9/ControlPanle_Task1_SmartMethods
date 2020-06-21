@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+ background-image: url("Picture2.JPG");
+ background-color: #cccccc;
+}
+
+
+.button {
+  padding: 10px 15px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #F2F2F2;
+}
+.button:hover {background-color: #D8D8D8}
+
+.button:active {
+  background-color: #E0F8F7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.middle .button1 {
+position: absolute;
+top: 25%; 
+right: 43%;
+transform: translate (-50%, -50%); 
+} 
+
+.middle .button2 {
+position: absolute;
+top: 45%; 
+right: 65%;
+transform: translate (-50%, -50%); 
+} 
+
+.middle .button3 {
+position: absolute;
+top: 45%; 
+right: 45%;
+transform: translate (-50%, -50%); 
+} 
+
+.middle .button4 {
+position: absolute;
+top: 45%; 
+right: 25%;
+transform: translate (-50%, -50%); 
+} 
+
+.middle .button5 {
+position: absolute;
+top: 65%; 
+right: 42.5%;
+transform: translate (-50%, -50%); 
+}
+
+.button1 {background-color: #848484;} /* FORWARDS */
+.button2 {background-color: #848484;} /* LEFT */
+.button3 {background-color: #FE2E2E;} /* STOP */
+.button4 {background-color: #848484;} /* RIGHT */
+.button5 {background-color: #848484;} /* BACKWARDS */
+
+</style>
+</head>
+
+<body>
+
+<div class="middle">
+
+<button class="button button1">FORWARDS</button>
+<button class="button button2">LEFT</button>
+<button class="button button3">STOP</button>
+<button class="button button4">RIGHT</button>
+<button class="button button5">BACKWARDS</button>
+
+</div>
+</body>
+</html>
